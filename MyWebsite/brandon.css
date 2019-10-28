@@ -1,0 +1,201 @@
+    /*Universal Selectors*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+hr {
+	margin: 0;
+	background-color: #d2ab99;
+}
+
+i {
+	font-size: 13px;
+}
+
+/*ID Seelector*/
+
+	
+#deardiary {
+	text-align: center;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+    color: white;
+  background: url(ownimages/Brandon_Flower1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+#story {
+  position: relative;
+  top: 30px;
+  width: 43.33%;
+  padding: 20px;
+  background-color: #8DB38B; opacity:0.95;
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+#turn {
+  margin-left: 850px;
+  margin-bottom: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+#logos1 {
+	height: auto;
+	width: 60px;
+	padding: 2px;
+	margin: 10px;
+
+}
+#logos2 {
+	height: auto;
+	width: 60px;
+	padding: 2px;
+	margin: 10px;
+
+}
+#logos3 {
+	height: auto;
+	width: 60px;
+	padding: 2px;
+	margin: 10px;
+
+}
+
+#greetings1 {
+	font-family: Arial, sans-serif;
+	margin-bottom: 50px;
+	font-size: 50px;
+	background-color: #d2ab99;
+	margin-top: 70px;
+	padding: 20px;
+}
+	
+#footer {
+	background-color: #d2ab99;
+	margin: 0px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	padding-top: 10px;
+	font-size: 17px;
+	padding-bottom: 10px;
+}
+	
+/*Class Selector*/
+
+	
+.greetings {
+	font-family: Arial, sans-serif;
+	margin-bottom: 5px;
+	font-size: 50px;
+	padding: 10px;
+}
+
+.socialmedia {
+	text-align: center; 
+	background-color: #d2ab99;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+	
+
+.literature {
+	height: 400px;
+	width: 400px;
+	padding: 30px;
+}
+
+.icons {
+	border: 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.background {
+  background: url(Brandon_Flower1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background: url(ownimages/IMG_0164.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  color: white;
+}
+
+.topnav {
+  display: flex;
+  position: fixed;
+  margin-top: -8px;
+  padding-right: 1200px;
+  padding-top: 0px;
+  background-color: #8DB38B;
+  color: white;
+  font-family: Arial, sans-serif; 
+  
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ddd;
+  color: black;
+  margin-right: auto
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  border: 2px white solid;
+  text-align: center;
+}
+
+	  
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
